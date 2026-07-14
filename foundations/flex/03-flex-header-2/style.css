@@ -31,7 +31,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin-right: 0px;1
+  margin-left: 10px;
 }
 
 button {
@@ -40,6 +40,10 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+}
+
+.notifications {
+  margin-right: 10px;
 }
 
 a {
@@ -57,10 +61,12 @@ a {
 
 ul {
   list-style-type: none;
-  
+  padding: 0px;
 }
 
 .right {
   display: flex;
-  margin-left: 0px;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 10px;
 }
